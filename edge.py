@@ -10,7 +10,7 @@ def open_edge():
         pyautogui.press("win")
         # Espera 1s para abrir o menu Iniciar
         time.sleep(1) 
-        # Digita "chrome" e pressiona Enter para abrir o Chrome
+        # Digita "edge" e pressiona Enter para abrir o EDGE
         pyautogui.write("edge")
         pyautogui.press("enter")
 
